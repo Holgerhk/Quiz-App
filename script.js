@@ -11,7 +11,7 @@ const page_3 = document.querySelector(".page-3");
 const page_4 = document.querySelector(".page-4");
 
 const wrong_container = document.querySelector(".wrong-container");
-const right_container = document.querySelector("right-container");
+const right_container = document.querySelector(".right-container");
 
 let wrong = [];
 let correct = [];
@@ -84,6 +84,19 @@ btns_page_4.forEach(btn => {
             `;
 
             right_container.appendChild(boxRight);
+        });
+
+        /* wrong */
+
+        wrong.forEach(wro => {
+            const boxWrong = document.createElement("div");
+            boxWrong.classList.add("wrong-box");
+
+            boxWrong.innerHTML = `
+            <p class="wrong-text">${wro}</p>
+            `;
+
+            wrong_container.appendChild(boxWrong);
         });
     });
 });
