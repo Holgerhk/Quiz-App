@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
+}
+
+.btns {
+  background-color: #008424;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+
+.btns:active {
+  transform: scale(0.98);
+}
+
+.btns:hover {
+  background-color: #005517;
+}
+
+.Q-1 {
+  top: 90px;
+  left: 509px;
+  width: 901px;
+  height: 59px;
+}
+
+.Q-2 {
+  width: 1184px;
+  height: 59px;
+  top: 90px;
+  left: 368px;
+}
+
+.Q-3 {
+  width: 896px;
+  height: 59px;
+  top: 90px;
+  left: 512px;
+}
+
+.Q-4 {
+  width: 1467px;
+  height: 59px;
+  top: 90px;
+  left: 226px;
+}
+
+/* landing-page */
+
+.landing-page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.btn {
+  height: 60px;
+  width: 200px;
+  position: absolute;
+  top: 409px;
+  left: 860px;
+  font-size: 30px;
+}
+
+.title {
+  color: #fff;
+  font-size: 50px;
+  font-weight: normal;
+  position: absolute;
+  top: 90px;
+  left: 859px;
+  margin: 0;
+  width: 202px;
+  height: 59px;
+  text-align: center;
+}
+
+/* landing-page */
+
+.page-1 {
+  display: none;
+}
+
+.page-2 {
+  display: none;
+}
+
+.page-3 {
+  display: none;
+}
+
+.page-4 {
+  display: none;
+}
+
+/* page-1-2-3-4 */
+
+.Q {
+  color: #fff;
+  margin: 0;
+  position: absolute;
+  text-align: center;
+}
+
+.A-1 {
+  width: 719px;
+  height: 52.02px;
+  font-size: 30px;
+  position: absolute;
+  left: 600px;
+  top: 293.25px;
+}
+
+.A-2 {
+  width: 719px;
+  height: 52.02px;
+  font-size: 30px;
+  position: absolute;
+  left: 600px;
+  top: 364.39px;
+}
+
+.A-3 {
+  width: 719px;
+  height: 52.02px;
+  font-size: 30px;
+  position: absolute;
+  left: 600px;
+  top: 435.53px;
+}
+
+.A-4 {
+  width: 719px;
+  height: 52.02px;
+  font-size: 30px;
+  position: absolute;
+  left: 600px;
+  top: 506.67px;
+}
+
+/* end-page */
+
+.right {
+  color: #fff;
+  font-size: 45px;
+  font-weight: normal;
+  width: 642px;
+  height: 45.98px;
+  text-align: center;
+  position: absolute;
+  top: 173.52px;
+  left: 217px;
+}
+
+.wrong {
+  color: #fff;
+  font-size: 45px;
+  font-weight: normal;
+  width: 676px;
+  height: 45.98px;
+  text-align: center;
+  position: absolute;
+  top: 173.52px;
+  left: 1061px;
+}
